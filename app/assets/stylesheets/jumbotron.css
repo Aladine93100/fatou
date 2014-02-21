@@ -1,0 +1,112 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+	background-color: rgba(212,99,10,0.8);
+}
+
+.titre-nav {
+	margin-left: 280px;
+	font-size: 35px;
+}
+
+.titre-footer {
+	margin-left: 170px;
+}
+
+.navbar-brand {
+	color: #8A078A !important;
+	padding-bottom: 10px;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+}
+
+.btn-primary {
+	background-color: #8A078A;
+}
+
+.image-head {
+	width: 70%;
+	margin-left: 120px;
+	margin-top: 50px;
+}
+
+.btn-primary:hover {
+	background-color: #C20AC2;
+}
+
+.btn-success {
+	background-color: #8A078A;
+}
+
+.btn-success:hover {
+	background-color: #C20AC2;
+}
+
+.btn-default {
+	background-color: #8A078A;
+	color: white;
+}
+
+.btn-default:hover {
+	background-color: #C20AC2;
+}
+
+.menu1 {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+.menu2 {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 10px;
+	margin-left: 100px;
+}
+
+.menu3 {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 10px;
+	margin-left: 120px;
+}
+
+.jumbotron {
+	background-color: rgba(0,0,0,0.8);
+	left: -100px; 
+	border-bottom-width: 10px !important;
+	border-bottom-style: solid;
+	color: white;
+}
+
+.glyphicon {
+	color: #FF770C !important; 
+}
+
+.contact-nsb {
+	margin-left: 300px;
+	font-size: 20px;
+}
+
+footer {
+	background-color: #FF770C;
+	padding: 70px;
+	text-align: center;
+}
+
+/* programme */
+
+.panel-default {
+	background-color: rgba(0,0,0,0.8);
+	margin-top: 90px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	color: white;
+}
