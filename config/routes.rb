@@ -1,4 +1,9 @@
 FatouApp::Application.routes.draw do
+
+  resources :photos, :only => [:index, :show, :new, :create] do
+    post 'upload', :on => :collection
+  end
+  
   root to: 'static_pages#index'
   match '/programme',  to: 'campagne#programme',            via: 'get' 
   match '/follow',  to: 'campagne#presentation',      via: 'get'

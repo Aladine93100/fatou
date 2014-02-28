@@ -8,9 +8,14 @@ body {
 	background-color: rgba(212,99,10,0.8);
 }
 
+.h4 {
+	color: white !important;
+}
+
 .titre-nav {
 	margin-left: 280px;
 	font-size: 35px;
+	color: white !important;
 }
 
 .titre-footer {
@@ -18,8 +23,9 @@ body {
 }
 
 .navbar-brand {
-	color: #8A078A !important;
-	padding-bottom: 10px;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+	color: white !important;
+	padding-bottom: 10px;
+	text-align: center;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
 }
 
 .btn-primary {
