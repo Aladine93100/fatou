@@ -6,8 +6,9 @@ FatouApp::Application.routes.draw do
   
   root to: 'static_pages#index'
   match '/programme',  to: 'campagne#programme',            via: 'get' 
-  match '/follow',  to: 'campagne#presentation',      via: 'get'
-  match '/parole',  to: 'campagne#parole',      via: 'get'   
+  match '/follow',  to: 'campagne#follow',      via: 'get'
+  match '/parole',  to: 'campagne#parole',      via: 'get' 
+  match '/presentation', to: 'campagne#presentation', via: 'get'  
   match '/about',   to: 'static_pages#about',   via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.

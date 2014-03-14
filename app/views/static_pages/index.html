@@ -1,71 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title> Nous sommes Bondy </title>
+  <title> Nous sommes Bondy </title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="../../dist/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="jumbotron.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <!-- Just for debugging purposes. Don't actually copy this line! -->
+  <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
+      <![endif]-->
+    </head>
 
-  <body>
+    <body>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
           <div class="row">
-            <div class="thumbnail image-head"><%= image_tag "NSB5.JPG" %></div>
+            <div class="image col-md-offset-3 col-md-9 col-xs-offset-3 col-xs-9">
+            <div class="thumbnail text-center image-head"><%= image_tag "mairiefatou.png" %></div>
           </div>
-        <p>« À Bondy, l’élection municipale ne doit pas être un affrontement entre la gauche et la droite. Ma priorité : tous les bondynois. Nous sommes Bondy »</p>
-        <p><a class="btn btn-primary" <%= link_to "Le programme", programme_path %></p></a></p>
-      </div>
-      </div>
-    </div>
-    </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="thumbnail head text-center">
+                <p class="text-img text-center">« À Bondy, l’élection municipale ne doit pas être un affrontement entre la gauche et la droite.</br> Ma priorité : tous les bondynois. Nous sommes Bondy » Fatou Meite</p>
+                <a class="btn btn-primary btn-head" <%= link_to "Notre Appel", programme_path %> </a>
+              </div>
+            </div>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-3 menu1">
-          <h3>A votre écoute !</h3>
-          <div class="thumbnail"><%= image_tag "NSB5.JPG" %></div>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <a class="btn btn-primary" <%= link_to "Exprimez-vous", parole_path %></p></a>
-        </div>
-        <div class="col-md-3 menu2">
-          <h3>Suivez nous</h3>
-          <div class="thumbnail"><%= image_tag "NSB4.JPG" %></div>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <a class="btn btn-primary" <%= link_to "Follow", follow_path %></p></a>
-       </div>
-        <div class="col-md-3 menu3">
-          <h3>L'équipe</h3>
-          <div class="thumbnail"><%= image_tag "NSB3.JPG" %></div>
-          <p>Nous sommes des bondynois et nous nous retrouvons aujourd’hui autour d’un projet commun.</br> 
-          Nous avons vu Bondy dépérir mais nous n’avons jamais perdu espoir convaincus que nous pouvons donner un nouveau souffle à notre ville.</p>
-          <a class="btn btn-primary" <%= link_to "Faisons connaissance", parole_path %></p></a>
+          </div>
         </div>
       </div>
 
-      <hr>
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-3 menu1">
+            <h3>A votre écoute !</h3>
+            <div class="thumbnail"><%= image_tag "NSB5.JPG" %></div>
+            <p>Nous sommes Bondy est une liste citoyenne independante et sans étiquette candidate à l’élection municipale des 23 et 30 mars 2014. La tête de liste est Fatou Meïte Conseillère municipale Mouvement Emergence.</p>
+            <a class="btn btn-primary" <%= link_to "Exprimez-vous", parole_path %></p></a>
+          </div>
+          <div class="col-md-3 menu2">
+            <h3>Programme</h3>
+            <div class="thumbnail"><%= image_tag "NSB4.JPG" %></div>
+            <p>Transparence et bonne gouvernance</br>
+            - Création d'un « comité de transparence » composé d’élus et de citoyens en charge de veiller à la bonne gouvernance de la municipalité...</p>
+            <a class="btn btn-primary" <%= link_to "La suite", follow_path %></p></a>
+          </div>
+          <div class="col-md-3 menu3">
+            <h3>L'équipe</h3>
+            <div class="thumbnail"><%= image_tag "PPV3.png" %></div>
+            <p>Nous sommes des bondynois et nous nous retrouvons aujourd’hui autour d’un projet commun.</br> 
+              Nous avons vu Bondy dépérir mais nous n’avons jamais perdu espoir convaincus que nous pouvons donner un nouveau souffle à notre ville.</p>
+              <a class="btn btn-primary" <%= link_to "Faisons connaissance", presentation_path %></p></a>
+            </div>
+          </div>
+
+          <hr>
 
 
     <!-- Bootstrap core JavaScript
@@ -74,4 +82,4 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
   </body>
-</html>
+  </html>

@@ -7,4 +7,7 @@ class CampagneController < ApplicationController
 
 	def presentation
 	end
+
+	def follow
+	end
 end

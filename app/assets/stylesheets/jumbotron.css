@@ -1,15 +1,24 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 0px;
-  padding-bottom: 20px;
+	margin-top: 0px;
 }
 
 .navbar {
-	background-color: rgba(212,99,10,0.8);
+	background-color: rgba(168,2,255,0.8);
+	color: white;
+	margin-bottom: 0px;
+}
+
+.titre {
+	font-family: 'Voces', cursive;
 }
 
 .h4 {
 	color: white !important;
+}
+
+.text-img {
+	font-family: 'Sail', cursive;
 }
 
 .titre-nav {
@@ -32,10 +41,14 @@ body {
 	background-color: #8A078A;
 }
 
+.head {
+	background-color: rgba(0,0,0,0.8);
+}
+
 .image-head {
 	width: 70%;
-	margin-left: 120px;
-	margin-top: 50px;
+	margin-top: 0px;
+	border: orange !important;
 }
 
 .btn-primary:hover {
@@ -100,12 +113,6 @@ body {
 	font-size: 20px;
 }
 
-footer {
-	background-color: #FF770C;
-	padding: 70px;
-	text-align: center;
-}
-
 /* programme */
 
 .panel-default {
@@ -115,4 +122,8 @@ footer {
 	margin-right: 50px;
 	padding: 10px;
 	color: white;
+}
+
+.panel-body {
+	font-family: 'Voces', cursive;
 }
