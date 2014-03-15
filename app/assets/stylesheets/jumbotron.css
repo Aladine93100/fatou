@@ -98,10 +98,16 @@ body {
 	margin-right: 50px;
 	padding: 10px;
 	color: white;
+	font-family: 'Voces', cursive;
 }
 
 .modal-body {
 	font-family: 'Voces', cursive;
 	background-color: rgb(255,128,13);
 	color: black;
+}
+
+.well {
+	color: black;
+	font-family: 'Voces', cursive;
 }
